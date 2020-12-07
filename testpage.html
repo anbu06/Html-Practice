@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable Web Design For Small And Medium-Sized Companies">
+    <meta name="author" content="Sebastian Eschweiler">
+    <title>TestPage</title>
+    <link rel="stylesheet" href="./css/tesstpagestyle.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><i class="fa fa-rocket"></i> <span class="highlight">Voussoir Tech Developers</span></h1>
+        </div>
+        <!--nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li class="current"><a href="testpage.html">TestPage</a></li>
+          </ul>
+        </!--nav-->
+      </div>
+    </header>
+    <!--sub-nav html code-->
+    <div><ul class="menu cf">
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <a href="about.html">About</a>
+        <ul class="submenu">
+          <li><a href="">Submenu item</a></li>
+          <li><a href="">Submenu item</a></li>
+          <li><a href="">Submenu item</a></li>
+        </ul>	
+        <li><a href="services.html">Service</a><ul class="submenu">
+          <li><a href="">Submenu item</a></li>
+          <li><a href="">Submenu item</a></li>
+          <li><a href="">Submenu item</a></li>
+        </ul><li><a href="testpage.html">TestPage</a><ul class="submenu">
+          <li><a href="">Submenu item</a></li>
+          <li><a href="">Submenu item</a></li>
+          <li><a href="">Submenu item</a></li>
+        </ul>	</li>	</li>		
+      </li>
+    </ul></div>
+
+    <!--icon bar html code-->
+
+    <div class="icon-bar">
+      <a class="active" href="#"><i class="fa fa-home"></i></a> 
+      <a href="#"><i class="fa fa-search"></i></a> 
+      <a href="#"><i class="fa fa-envelope"></i></a> 
+      <a href="#"><i class="fa fa-globe"></i></a>
+      <a href="#"><i class="fa fa-trash"></i></a> 
+    </div>
+
+    <!--user login html code-->
+    <form>
+        
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username">
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password">
+              
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+
+    <!--Slide image html and js code-->
+
+    <!--div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="img_nature_wide.jpg" style="width:100%">
+        <div class="text">Caption Text</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="img_snow_wide.jpg" style="width:100%">
+        <div class="text">Caption Two</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="img_mountains_wide.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+      </!--div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+      
+      <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
+      
+
+  
+      
+      
+<!--fooder html code-->
+    <footer>
+        <p>Voussoir Tech Developers, Copyright &copy; 2020</p>
+      </footer>
+      <footer>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </footer>
+    </body>
+    </html>
